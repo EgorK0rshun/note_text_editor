@@ -13,6 +13,9 @@ dependencies:
   cupertino_icons: ^1.0.5
   flutter_svg: ^1.1.6
 
+  #6.2.2 version is a version before flutter 3.3.7
+  flutter_quill: 6.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
