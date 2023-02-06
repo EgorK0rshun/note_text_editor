@@ -9,7 +9,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: TextEditorAppBar(),
-      body: TextEditorBody(),
+      body: const TextEditorBody(),
     );
   }
 }

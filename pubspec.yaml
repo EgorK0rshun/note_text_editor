@@ -1,5 +1,5 @@
 name: text_editor
-description: A new Flutter project.
+description: Flutter quill sample.
 
 version: 1.0.0+1
 
@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.5
-  flutter_svg: ^1.1.6
+  flutter_svg: ^2.0.0+1
 
   #6.2.2 version is a version before flutter 3.3.7
   flutter_quill: 6.2.2
