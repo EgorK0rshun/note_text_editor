@@ -15,15 +15,30 @@ class TextEditorBodyState extends State<TextEditorBody> {
     return Column(
       children: [
         Expanded(
-          child: Container(
-            color: Colors.transparent,
-            child: QuillEditor.basic(
-              controller: _controller,
-              readOnly: false,
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Container(
+              color: Colors.transparent,
+              child: QuillEditor.basic(
+                controller: _controller,
+                readOnly: false,
+              ),
             ),
           ),
         ),
         QuillToolbar.basic(
+          showUndo: false,
+          showRedo: false,
+          showFontSize: false,
+          showSmallButton: false,
+          showUnderLineButton: false,
+          showStrikeThrough: false,
+          showInlineCode: false,
+          showDirection: false,
+          showIndent: false,
+          showLink: false,
+          showSearchButton: false,
+          showAlignmentButtons: true,
           controller: _controller,
           iconTheme: QuillIconTheme(
             borderRadius: 8.0,
